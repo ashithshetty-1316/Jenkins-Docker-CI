@@ -15,7 +15,7 @@ pipeline {
 
         stage('2. Application Build & Test') {
             steps {
-                bat 'bat 'py app.py'
+                 bat 'py app.py'
             }
         }
 
